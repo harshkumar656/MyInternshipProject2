@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="main.js">
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="HK1.png" width="40px">
+        <a href="#home" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contacts</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello everyone ! ! , myself</h3>
+            <h1>Harsh Kumar</h1>
+            <span id="element"></span>
+            <p>Student at Bangalore Institute Of Technology <br>Ex-Intern at Aam Aadmi Party, Delhi <br> Intern at Exotion
+            </p>
+            <div class="home-sci">
+                <a href="#">More About Me</a>
+            </div>
+        </div>
+        <img src="HK1.png" width="250px">
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="HK1.png" width="250px">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Graphic Designer , Web Developer</h4>
+            <p>Hi ! I'm Harsh Kumar a passionate web developer and designer currentlty pursuing my B.tech in Computer Science , I'm in 2nd year . I have done one internship as a Graphic Designer at Aam Aadmi Party, Delhi as a Graphic Designer and currently working as aweb developer intern at Exotion  </p>
+            <a href="#" class="home-sci">More About Me</a>
+        </div>
+
+    </section>
+    <section class="projects"id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class=""></i>
+                    <h2>E-commerce Website</h2>
+                    <p>E-commerce website build using the concepts of HTML, CSS , JAVASCRIPT .
+                        which allows user to see different variety of products including featured products , latest products .User can add it to carts and can see the total amount to be paid then he can checkout.  
+                    </p>
+                    <a href="#" class="read">Read More</a>
+                </div>
+                <div>
+                    <i class=""></i>
+                    <h2>Website for Company</h2>
+                    <p>A website for JMS pvt ltd a food and grain selling company . User can see the current market rate of grains like wheat, chana ,Bajra etc . They can also see the variety of grains avaailable , also how to contact them for business. And transaction details (if any) </p>
+                    <a href="#" class="read">Read More</a>
+                </div>
+                <div>
+                    <i class=""></i>
+                    <h2>Quiz Management System</h2>
+                    <p>This project was made using the concepts of java swings . Here user can enter his details and see the question of the quiz one by one . a give amount of time was provided to for each question and and carries 5 marks for each. at the end use can see total marks he has scored and the option to play the quiz again.</p>
+                    <a href="#" class="read">Read More</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="sub-title">Contacts</h1>
+        <div class="container-contact">
+            <div class="row1">
+                <h4>Find Me Here !</h4>
+                <ul>
+                    <a href=""><li>G-mail</li></a>
+                    <a href=""><li>Ph-no</li></a>
+                    <a href=""><li>Facebook</li></a>
+                    <a href=""><li>Linkedin</li></a>
+                    <a href=""><li>Instagram</li></a>
+                </ul>
+            </div>
+            <div class="row2">
+                <h4>Please Fill it !</h4>
+                <ul>
+                    <li>Enter Your Name</li>
+                    <input type="text" placeholder="Name">
+                    <li>Enter Your Email</li>
+                    <input type="email" placeholder="Email">
+                    <li>Enter Your phone no</li>
+                    <input type="number"placeholder="Phone">
+                    <li>Any message</li>
+                    <input type="textarea"placeholder="Message">
+                </ul>
+                <div>
+                    <a href="#">Submit</a>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer ','Graphic Designer'],
+            typeSpeed: 40
+        });
+    </script>
+</body>
+
+</html>
